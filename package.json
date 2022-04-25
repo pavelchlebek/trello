@@ -1,0 +1,15 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/style.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Pavel Chlebek",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
